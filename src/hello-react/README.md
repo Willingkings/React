@@ -1,4 +1,4 @@
-# React-01
+# Hello React
 ### 起步
 1. 创建项⽬： npx create-react-app my-app
 2. 打开项⽬： cd my-app
