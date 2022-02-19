@@ -52,7 +52,6 @@ import ReactDOM from 'react-dom';
 // JSX => React.createElement(...)
 ReactDOM.render(<h1>Hello React</h1>, document.querySelector('#root'));
 ```
-修改config下path.js : "appIndexJs: resolveModule(resolveApp, "src/hello-react/index")"
 > React负责逻辑控制，数据 ->>VDOM   
 > ReactDom渲染实际DOM，VDOM ->> DOM   
 > React使⽤JSX来描述UI   
