@@ -25,6 +25,7 @@ export default function Jsx(props) {
   const arr = [0, 1, 2];
   return (
     <div className={styles.app}>
+      <h3>JSX</h3>
       <div>Hello, {name}</div>
       <div>{formatName(obj)}</div>
       {greet}
