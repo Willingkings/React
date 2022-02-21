@@ -1,6 +1,6 @@
 import React from "react";
 import Jsx from "./jsx/Jsx";
-import { ClassComponent, FunctionComponent } from "./components";
+import { ClassComponent, FunctionComponent, HomePage } from "./components";
 
 export default function App() {
   return (
@@ -11,6 +11,7 @@ export default function App() {
     <div>
       <ClassComponent />
       <FunctionComponent />
+      <HomePage />
     </div>
   );
 }
