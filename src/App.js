@@ -3,6 +3,7 @@ import Jsx from "./jsx/Jsx";
 import { ClassComponent, FunctionComponent, HomePage } from "./components";
 import SetStatePage from "./setState/SetStatePage";
 import ReduxPage from "./redux/ReduxPage";
+import ReactReduxPage from "./redux/ReactReduxPage";
 
 export default function App() {
   return (
@@ -23,8 +24,8 @@ export default function App() {
 
     // redux
     <div>
-      <ReduxPage />
+      {/* <ReduxPage /> */}
+      <ReactReduxPage />
     </div>
-
   );
 }
